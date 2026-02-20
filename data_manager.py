@@ -22,4 +22,3 @@ def get_data():
             return json.load(f)
     except (json.JSONDecodeError, FileNotFoundError):
         return {"users": {}}
- 
